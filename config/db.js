@@ -8,7 +8,7 @@ const { DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT } = process.env;
 
 // Create database connection pool
 const pool = mysql.createPool({
-  host: DB_HOST || "localhost:3306",
+  host: DB_HOST || "107.180.117.164",
   user: DB_USER || "user",
   password: DB_PASSWORD || "A1D2R3A4P5@",
   database: DB_NAME || "adrap_database",
