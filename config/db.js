@@ -8,11 +8,11 @@ const { DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT } = process.env;
 
 // Create database connection pool
 const pool = mysql.createPool({
-  host: DB_HOST || "ballast.proxy.rlwy.net",
-  user: DB_USER || "root",
-  password: DB_PASSWORD || "YigpieamkntQMNaTHwtmKHjUmYrcrDHH",
-  database: DB_NAME || "railway",
-  port: DB_PORT ? Number(DB_PORT) : 43255,
+  host: DB_HOST || "107.180.117.164",
+  user: DB_USER || "user",
+  password: DB_PASSWORD || "A1D2R3A4P5@",
+  database: DB_NAME || "adrap_database",
+  port: DB_PORT ? Number(DB_PORT) : 3306,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,

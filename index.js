@@ -18,7 +18,7 @@ const port = process.env.PORT || 3000;
 
 // Middleware: Setup CORS once with your preferred configuration
 app.use(cors({
-  origin: "https://www.adrap.cloud",
+  origin: "http://localhost:5173",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
